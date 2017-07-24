@@ -69,6 +69,18 @@ a {
     width: 100%;
 }
 
+.row h1 {
+    display: inline-block;
+}
+
+.row div {
+    display: inline-block;
+}
+
+.row div>label {
+    font-size: 2em;
+}
+
 .row::after {
     content: "";
     clear: both;
